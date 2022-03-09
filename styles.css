@@ -1,4 +1,11 @@
 body {
     /* Add responsive base font size */
     font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    /* colors */
+    --text-primary: #000;
+    --text-light: rgb(218, 206, 50);
+    --background-light: #f4f4f4;
+    --background-dark: #000;
 }
