@@ -9,3 +9,29 @@ body {
     --background-light: #f4f4f4;
     --background-dark: #000;
 }
+@media screen and (max-width: 1000px) {
+    /* Add responsive base font size */
+    body{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* Add responsive base font size */
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    /* Add responsive base font size */
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 300px) {
+    /* Add responsive base font size */
+    body{
+        font-size: 10px;
+    }
+}
+
+    

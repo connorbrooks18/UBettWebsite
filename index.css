@@ -13,15 +13,22 @@ header {
 
 .first-content {
     display: flex;
-    height: 70vh;
+    height: 60vh;
+    margin-bottom: 1rem;
 }
+@media screen and (min-width: 1200px) {
+    .first-content {
+        height: 70vh;
+    }
+}
+    
 .first-content > div {
     flex: 1;
 }
 
 .twitter {
     flex: 1;
-    height: 100%;
+    width: 80%;
 }
 .twitter-timeline{
     height: 100%;
@@ -30,22 +37,26 @@ header {
     font-size: 1.2rem;
     display: block;
     text-align: center;
+    font-weight: 800;
 }
 .about{
     /* center text */
-    text-align: justify;
+    text-align: left;
     padding: 1rem;
     line-height: 2rem;
+    border: 3px solid var(--text-light);
+    border-radius: 5px;
 }
 
 /* main page image */
 .home-img-section {
-    margin: 1rem auto;
+    margin: 0 auto;
     text-align: center;
+    border: 3px solid #000;
+    padding-bottom: .1rem;
 }
 .home-img {
     width: 100%;
-    max-width: 700px;
     height: auto;
     background-size: auto; 
     background-position: center;
